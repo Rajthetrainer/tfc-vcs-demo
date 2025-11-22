@@ -1,0 +1,43 @@
+# Local terraform state (should NEVER be committed)
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Plan files
+*.tfplan
+
+# Cached modules & providers
+.terraform/
+.terraform*
+
+# Local override files
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Local overrides for development
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI config files
+.terraformrc
+terraform.rc
+
+# VS Code settings
+.vscode/
+
+# IDE files
+.idea/
+*.iml
+
+# OS / System files
+.DS_Store
+Thumbs.db
